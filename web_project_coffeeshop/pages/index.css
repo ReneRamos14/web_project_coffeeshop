@@ -1,1 +1,12 @@
-En tu proyecto anterior, incluimos una carpeta llamada .vscode que contenía todos los ajustes que necesitas para asegurarte de que Prettier funcione. Puedes copiar este directorio en tu nuevo proyecto (y todos los proyectos posteriores), pero será mucho más conveniente que configures todos estos ajustes de forma global para aplicarlos a todos tus archivos HTML y CSS. 
+body {
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
